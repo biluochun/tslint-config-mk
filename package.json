@@ -1,0 +1,19 @@
+{
+  "name": "tslint-config-mk",
+  "version": "1.1.1",
+  "main": "tslint.js",
+  "files": [
+    "tslint.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/biluochun/tslint-config-mk.git"
+  },
+  "author": "imconfig",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tslint-eslint-rules": "^5.1.0"
+  }
+}
