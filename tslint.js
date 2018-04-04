@@ -59,7 +59,7 @@ module.exports = {
     'no-return-await': true,
     'no-switch-case-fall-through': true,
     'no-unused-expression': [true, 'allow-fast-null-checks', 'allow-tagged-template'],
-    'no-unused-variable': [true, { 'ignore-pattern': '^_' }],
+    'no-unused-variable': [true, { 'ignore-pattern': '^[_A-Z]' }], // 允许下划线开头和大写开头的变量声明后不使用（Vue内方法定义，使用不一定被识别。）
     'no-use-before-declare': true,
     'no-var-keyword': true,
     'radix': true,
