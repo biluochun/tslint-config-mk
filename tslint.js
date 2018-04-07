@@ -95,7 +95,7 @@ module.exports = {
     'new-parens': true,
     'no-angle-bracket-type-assertion': true,
     'no-consecutive-blank-lines': true,
-    'no-floating-promises': true,
+    'no-floating-promises': false, // 将 premise catch在内部
     'no-misused-new': true,
     'no-string-throw': true,
     'no-unnecessary-qualifier': true,
